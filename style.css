@@ -1,0 +1,51 @@
+/*shared-css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 15px 30px;
+    background-color: #032539;
+    
+}
+
+ ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fa991c;
+
+}
+
+
+.logo-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.logo {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-items: center;
+
+}
+.logo-link {
+     display: flex;
+     align-items: center;
+     text-decoration: none;
+     gap: 10px;
+     color: #fa991c;
+}
